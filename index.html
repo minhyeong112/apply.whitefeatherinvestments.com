@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Accelerator Application</title>
   <style>
-    /* Ensure the iframe fills the screen */
     html, body {
-      height: 100%;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    iframe {
-      width: 100%;
+      padding: 0;
       height: 100%;
-      border: none;
-      border-radius: 3px;
+      width: 100%;
+    }
+    iframe {
+      display: block;
     }
   </style>
 </head>
 <body>
-  <!-- Embed the form as an iframe -->
   <iframe
     src="https://api.leadconnectorhq.com/widget/form/PdQTVwR5BMndOFylqgVh"
     style="width:100%;height:100%;border:none;border-radius:3px"
-    id="inline-PdQTVwR5BMndOFylqgVh" 
+    id="inline-PdQTVwR5BMndOFylqgVh"
     data-layout="{'id':'INLINE'}"
     data-trigger-type="alwaysShow"
     data-trigger-value=""
@@ -41,8 +34,6 @@
     data-form-id="PdQTVwR5BMndOFylqgVh"
     title="Accelerator Application"
   ></iframe>
-
-  <!-- Include the form script -->
   <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 </body>
 </html>
